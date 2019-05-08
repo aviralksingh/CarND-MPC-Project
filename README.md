@@ -112,4 +112,7 @@ that's just a guess.
 One last note here: regardless of the IDE used, every submitted project must
 still be compilable with cmake and make./
 
+**The model**
 
+This project uses a kinematic bycicle model originally described in [this paper](http://www.me.berkeley.edu/~frborrel/pdfpub/IV_KinematicMPC_jason.pdf). 
+Kinematic models are simplifications of dynamic models that ignore tire forces, gravity, and mass. At low and moderate speeds, kinematic models often approximate the actual vehicle dynamics.
